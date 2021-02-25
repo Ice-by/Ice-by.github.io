@@ -145,145 +145,81 @@
 
     <main class="main">
         <div class="container container-alt">
-            <section class="slider">
-                <div id="slider">
-                    <div id="miniature">
-                    </div>
-                    <div id="roundabout">
-                        <div id="ind_1" class="center_pos">
-                            <a class="slider__link" href="commodity.html"></a>
-                        </div>
-                        <div id="ind_2">
-                            <a class="slider__link" href="commodity.html"></a>
-                        </div>
-                        <div id="ind_3">
-                            <a class="slider__link" href="commodity.html"></a>
-                        </div>
-                        <div id="ind_4">
-                            <a class="slider__link" href="commodity.html"></a>
-                        </div>
-                        <div id="ind_5" class="center_pos">
-                            <a class="slider__link" href="commodity.html"></a>
-                        </div>
-                        <div id="ind_6">
-                            <a class="slider__link" href="commodity.html"></a>
-                        </div>
-                    </div>
-                    <button id="right_rb" type="button"></button>
-                    <button id="left_rb" type="button"></button>
-                </div>
-            </section>
+            <div class="wrapper">
+                <h2 class="basket__title">Корзина</h2>
 
-            <section class="new-items">
-                <h2 class="new-items__title">
-                    НОВИНКИ
-                </h2>
-                <div class="slider__container swiper-container">
-                    <div class="slider__items swiper-wrapper">
-                        <figure class="new-items__element swiper-slide">
+                <section class="order">
+                    <form action="" class="order__card">
+                        <div class="order__item">
+                            <div class="order__info">
+                                <img src="images/order.jpg" alt="sneaker" class="order__img">
+                                <div class="order__parametrs">
+                                    <h3 class="order__title">Nike React Vision</h3>
+                                    <div class="order__color"></div>
+                                    <div class="order__size">36</div>
+                                    <div class="order__quantity">
+                                        <button class="order__quantity-minus">-</button>
+                                        1
+                                        <button class="order__quantity-plus">+</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order__price">10 500 р.</div>
+                        </div>
+                        <div class="order__confirm">
+                            <a href="catalog.html" class="order__continue-view">Продолжить покупки</a>
+                            <button class="order__btn">Оформить заказ</button>
+                        </div>
+                    </form>
+                </section>
+
+                <section class="favorites">
+                    <h3 class="favorites__title">ИЗБРАННОЕ</h3>
+                    <div class="favorites__items">
+                        <figure class="favorites__item">
                             <a href="commodity.html">
-                                <div class="new-items__img new-items__img1"></div>
-                                <figcaption class="new-items__text">
+                                <img src="images/catalog/item1.png" alt="sneaker" class="favorites__img">
+                                <figcaption class="favorites__text">
                                     Nike Air Max Plus Premium
                                 </figcaption>
+                                <div class="favorites__price">13 700 р.</div>
                             </a>
                         </figure>
-                        <figure class="new-items__element swiper-slide">
+                        <figure class="favorites__item">
                             <a href="commodity.html">
-                                <div class="new-items__img new-items__img2"></div>
-                                <figcaption class="new-items__text">
+                                <img src="images/catalog/item2.png" alt="sneaker" class="favorites__img">
+                                <figcaption class="favorites__text">
                                     Nike Air Max 95
                                 </figcaption>
+                                <div class="favorites__price">14 900 р.</div>
                             </a>
                         </figure>
-                        <figure class="new-items__element swiper-slide">
+                        <figure class="favorites__item">
                             <a href="commodity.html">
-                                <div class="new-items__img new-items__img3"></div>
-                                <figcaption class="new-items__text">
-                                    Nike Air Max Plus
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="new-items__element swiper-slide">
-                            <a href="commodity.html">
-                                <div class="new-items__img new-items__img4"></div>
-                                <figcaption class="new-items__text">
-                                    Nike Zoom Double Stacked
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="new-items__element swiper-slide">
-                            <a href="commodity.html">
-                                <div class="new-items__img new-items__img5"></div>
-                                <figcaption class="new-items__text">
-                                    Nike Air Max 720
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="new-items__element swiper-slide">
-                            <a href="commodity.html">
-                                <div class="new-items__img new-items__img6"></div>
-                                <figcaption class="new-items__text">
+                                <img src="images/catalog/item3.png" alt="sneaker" class="favorites__img">
+                                <figcaption class="favorites__text">
                                     Nike React Vision
                                 </figcaption>
+                                <div class="favorites__price">10 500 р.</div>
                             </a>
                         </figure>
-                        <figure class="new-items__element swiper-slide">
+                        <figure class="favorites__item">
                             <a href="commodity.html">
-                                <div class="new-items__img new-items__img6"></div>
-                                <figcaption class="new-items__text">
-                                    Nike React Vision
+                                <img src="images/catalog/item4.png" alt="sneaker" class="favorites__img">
+                                <figcaption class="favorites__text">
+                                    Nike Air Max ZM950
                                 </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="new-items__element swiper-slide">
-                            <a href="commodity.html">
-                                <div class="new-items__img new-items__img6"></div>
-                                <figcaption class="new-items__text">
-                                    Nike React Vision
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="new-items__element swiper-slide">
-                            <a href="commodity.html">
-                                <div class="new-items__img new-items__img6"></div>
-                                <figcaption class="new-items__text">
-                                    Nike React Vision
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="new-items__element swiper-slide">
-                            <a href="commodity.html">
-                                <div class="new-items__img new-items__img6"></div>
-                                <figcaption class="new-items__text">
-                                    Nike React Vision
-                                </figcaption>
-                            </a>
-                        </figure>
-                        <figure class="new-items__element swiper-slide">
-                            <a href="commodity.html">
-                                <div class="new-items__img new-items__img6"></div>
-                                <figcaption class="new-items__text">
-                                    Nike React Vision
-                                </figcaption>
+                                <div class="favorites__price">14 500 р.</div>
                             </a>
                         </figure>
                     </div>
-                </div>
-            </section>
-
-            <section class="buy-media">
-                <div class="container container-alt">
-                    <div class="buy-media__inner">
-                        <div class="buy-media__text1"></div>
-                        <div class="buy-media__text2"></div>
-                    </div>
-                </div>
-            </section>
-
-            <div class="return-top"><a class="return-top__link" href="#top"></a></div>
+                </section>
+                <a href="catalog.html" class="continue">Продолжить покупки</a>
+            </div>
         </div>
     </main>
+
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
